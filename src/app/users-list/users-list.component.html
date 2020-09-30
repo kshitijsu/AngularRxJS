@@ -1,0 +1,16 @@
+<div class="container">
+  <h3>Users List</h3>
+  <hr />
+  <table class="table table-bordered">
+    <tr class="bg-success">
+      <th>Id</th>
+      <th>Name</th>
+      <th>City</th>
+    </tr>
+    <tr *ngFor="let user of data">
+      <td>{{ user.Id }}</td>
+      <td>{{ user.Name }}</td>
+      <td>{{ user.City }}</td>
+    </tr>
+  </table>
+</div>
